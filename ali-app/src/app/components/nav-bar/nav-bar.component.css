@@ -1,17 +1,53 @@
-.example-icon {
-  padding: 0 14px;
-}
-
 .example-spacer {
   flex: 1 1 auto;
 }
 
-.image {
-  height: 24px;
-  width: 24px;
-  padding: 0px 12px 0px 12px;
+.nav-bar {
+  background-color: #f0f0f0;
 }
 
-.nav-bar {
-  background-color: white;
+.nav-button {
+  color: #545f61;
+  font-family: bhyf, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 15px;
+}
+
+
+.fa {
+  padding: 7px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 5px;
+  background: #9bbdc2;
+  color: #f0f0f0;
+  border-radius: 50%;
+
+}
+
+/* .fa-circle {
+  background-color: blue;
+} */
+
+.name {
+  font-weight: 600;
+  font-family: bhyf, sans-serif;
+  font-size: 34px;
+  color: #9bbdc2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9bbdc2;
+}
+
+.fa:hover {
+  color: #545f61;
 }

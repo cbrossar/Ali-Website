@@ -8,16 +8,19 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './components/about/about.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +28,7 @@ import { AboutComponent } from './components/about/about.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    MatInputModule,
     BrowserAnimationsModule
   ],
   providers: [],
