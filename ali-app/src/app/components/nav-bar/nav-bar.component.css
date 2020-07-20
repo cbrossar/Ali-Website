@@ -16,7 +16,6 @@
   padding: 15px;
 }
 
-
 .fa {
   padding: 7px;
   font-size: 15px;
@@ -26,7 +25,6 @@
   background: #9bbdc2;
   color: #f0f0f0;
   border-radius: 50%;
-
 }
 
 /* .fa-circle {
@@ -50,4 +48,20 @@ a:hover {
 
 .fa:hover {
   color: #545f61;
+}
+
+@media (max-width: 550px) {
+  .hidden-nav-buttons {
+    display: none;
+  }
+}
+
+@media (min-width: 550px) {
+  .hidden-second-bar {
+    display: none;
+  }
+}
+
+.second-bar {
+  margin: auto;
 }
