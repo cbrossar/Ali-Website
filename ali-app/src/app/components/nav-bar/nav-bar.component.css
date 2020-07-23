@@ -3,7 +3,7 @@
 }
 
 .nav-bar {
-  background-color: #f0f0f0;
+  background-color: #b3beb6;
 }
 
 .nav-button {
@@ -22,8 +22,8 @@
   text-align: center;
   text-decoration: none;
   margin: 10px 5px;
-  background: #9bbdc2;
-  color: #f0f0f0;
+  background: #dfffa5;
+  color: #545f61;
   border-radius: 50%;
 }
 
@@ -34,8 +34,9 @@
 .name {
   font-weight: 600;
   font-family: bhyf, sans-serif;
-  font-size: 34px;
-  color: #9bbdc2;
+  font-size: 32px;
+  color: #dfffa5;
+  font-family: "Rozha One", serif;
 }
 
 a {
@@ -43,22 +44,28 @@ a {
 }
 
 a:hover {
-  color: #9bbdc2;
+  color: #ffd39e;
 }
 
 .fa:hover {
-  color: #545f61;
+  color: #ffd39e;
 }
 
 @media (max-width: 550px) {
   .hidden-nav-buttons {
     display: none;
   }
+  .center {
+    padding-right: 70px;
+  }
 }
 
 @media (min-width: 550px) {
   .hidden-second-bar {
     display: none;
+  }
+  .center {
+    padding-right: 15px;
   }
 }
 
