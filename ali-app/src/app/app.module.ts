@@ -16,6 +16,8 @@ import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { QandaComponent } from './components/qanda/qanda.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { ContactComponent } from './components/contact/contact.component';
     AppComponent,
     NavBarComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    QandaComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
