@@ -1,18 +1,24 @@
 <section class="container">
-  <div class="center">
+  <!-- <div class="center"> -->
     <h1>Contact</h1>
-    </div>
-  <form class="example-form center">
+    <!-- </div> -->
+  <div class="example-form center">
     <mat-form-field class="example-full-width">
       <mat-label>Name</mat-label>
-      <input matInput placeholder="Name">
+      <input matInput placeholder="Name" [(ngModel)]="name"> 
     </mat-form-field>
 
     <mat-form-field class="example-full-width">
       <mat-label>Email</mat-label>
-      <input matInput placeholder="Email">
+      <input matInput placeholder="Email" [(ngModel)]="email">
     </mat-form-field>
-  <!-- </div> -->
+    
+    <mat-form-field class="example-full-width">
+      <mat-label>Body</mat-label>
+      <input matInput placeholder="Body" [(ngModel)]="body">
+    </mat-form-field>
 
-  </form>
+  </div>
+  <button mat-raised-button color="primary" (click)="send_email()">Send</button>
+
 </section>
